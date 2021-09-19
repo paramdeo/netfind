@@ -1,0 +1,16 @@
+{
+  "name": "netfind.in",
+  "version": "1.0.0",
+  "description": "A search helper with URL-based context switching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paramdeo/netfind.in.git"
+  },
+  "author": "Paramdeo Singh",
+  "license": "MIT",
+  "homepage": "https://netfind.in"
+}

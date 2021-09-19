@@ -1,0 +1,5 @@
+name = "netfind"
+type = "javascript"
+route = "netfind.in/*"
+zone_id = "67b2a48ec7266207ea320b0eb5fc19c0"
+compatibility_date = "2021-09-19"

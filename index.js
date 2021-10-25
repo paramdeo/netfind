@@ -14,6 +14,8 @@ async function handleRequest(request) {
       img: "https://www.google.com/search?tbm=isch&q=",
       njalla: "https://njal.la/list/?search=",
       so: "https://stackoverflow.com/search?q=",
+      un: "https://unsplash.com/s/photos/",
+      unsplash: "https://unsplash.com/s/photos/",
       wiki: "https://en.wikipedia.org/wiki/",
       wikipedia: "https://en.wikipedia.org/wiki/",
       youtube: "https://www.youtube.com/results?search_query=",
@@ -41,4 +43,3 @@ async function handleRequest(request) {
   addEventListener("fetch", async event => {
     event.respondWith(handleRequest(event.request))
   })
-  

@@ -1,16 +1,13 @@
 {
-  "name": "netfind.in",
-  "version": "1.0.0",
-  "description": "A search helper with URL-based context switching.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler publish --minify src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paramdeo/netfind.in.git"
+  "dependencies": {
+    "hono": "^3.1.6"
   },
-  "author": "Paramdeo Singh",
-  "license": "MIT",
-  "homepage": "https://netfind.in"
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20221111.1",
+    "wrangler": "^2.7.1"
+  }
 }
